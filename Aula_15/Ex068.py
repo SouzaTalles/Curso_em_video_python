@@ -1,3 +1,5 @@
+# Jogo do par ou ímpar
+
 from random import randint
 
 v = a = 0

@@ -1,3 +1,5 @@
+# Vários números com flag
+
 s = q = 0
 
 while True:

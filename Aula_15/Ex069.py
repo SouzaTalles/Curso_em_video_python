@@ -1,3 +1,5 @@
+# Análise de dados do grupo
+
 ti = th = tm = 0
 
 while True:

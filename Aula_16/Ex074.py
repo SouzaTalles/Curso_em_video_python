@@ -1,3 +1,5 @@
+# Maior e menor valores em tuplas
+
 from random import randint
 
 nu = tuple(randint(1, 10) for _ in range(5))

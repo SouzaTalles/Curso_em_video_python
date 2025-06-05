@@ -1,3 +1,5 @@
+# Análise de dados em uma Tupla
+
 n = int(input('Digite um número: '))
 n1 = int(input('Digite outro número: '))
 n2 = int(input('Digite mais um número: '))
@@ -9,10 +11,10 @@ print(f'Você digitou os valores: {nu}')
 
 n9 = n4 = nn = 0
 
-for c in range(0, len(nu)):
+for c in range(0, len(nu)): # Pderia ter usado o .count()
     if nu[c] == 9:
         n9 += 1
-    if nu[c] == 3:
+    if nu[c] == 3: # poderia ter usado o index()
         n4 = c
         nn += 1
 

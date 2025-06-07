@@ -1,3 +1,5 @@
+# Extraindo dados de uma Lista
+
 l = list()
 n = 0
 

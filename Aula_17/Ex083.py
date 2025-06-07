@@ -1,5 +1,6 @@
-l = list(input('Digite a expressão: '))
+# Validando expressões matemáticas()
 
+l = list(input('Digite a expressão: '))
 e = d = 0
 for c in l:
     if c == '(':

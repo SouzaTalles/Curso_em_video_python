@@ -29,3 +29,4 @@ print('os valores pares digitados foram', end = ' ')
 for c in range(0, len(nu)):
     if nu[c] % 2 == 0:
         print(nu[c], end = ' ')
+        

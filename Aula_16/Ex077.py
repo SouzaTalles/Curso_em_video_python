@@ -12,4 +12,3 @@ for c in range(0, len(p)):
             print(d[a], end = ' ')
     print()
 
-    

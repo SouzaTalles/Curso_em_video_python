@@ -1,3 +1,5 @@
+# Boletim com listas compostas
+
 l1 = list()
 l2 = list()
 l3 = list()
@@ -20,6 +22,7 @@ while True:
     if q == 'N':
         break
 print('-=' * 25)
+
 print('NO. NOME             MÉDIA')
 print('-' * 30)
 for c,v  in enumerate(l1):
@@ -34,5 +37,4 @@ while True:
     print(f'Notas de {l1[a][0]} são {l1[a][1]}')
     print('-' * 30)
 print('FINALIZANDO...')
-print('<<< VOLTE SEMPRE >>>')
-    
+print('<<< VOLTE SEMPRE >>>')   

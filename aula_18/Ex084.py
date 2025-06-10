@@ -1,3 +1,5 @@
+# Lista conpostas e análise de dados
+
 dados = list()
 anali = list()
 lismai = list()

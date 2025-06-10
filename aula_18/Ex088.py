@@ -1,3 +1,5 @@
+#   Palpites para a Mega Sena
+
 from random import sample
 from time import sleep
 

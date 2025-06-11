@@ -1,3 +1,5 @@
+# Aprimorando os Dicionários
+
 jog = dict()
 gols = list()
 totjog = list()
@@ -27,10 +29,6 @@ print('-' * 40)
 for c, v in enumerate(totjog): 
     print(f"{c:<4}{v['nome']:<12}{str(v['gols']):<15}{v['total']:<5}")
 print('-' * 40)
-
-# for k, v in jog.items():
-#     print(f'O campo {k} tem o valor {v}.')
-# print('-=' * 30)
 
 while True:
     a = int(input('Mostrar dados de qual jogador? (999 interrompe): '))

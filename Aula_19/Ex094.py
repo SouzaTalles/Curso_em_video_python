@@ -1,3 +1,5 @@
+# Unindo dicionários e listas
+
 pes = dict()
 dados = list()
 

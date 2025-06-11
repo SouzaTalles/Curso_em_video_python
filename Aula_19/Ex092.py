@@ -1,3 +1,5 @@
+# Cadastro de Trabalhador em Python
+
 from datetime import date
 
 dados = dict()

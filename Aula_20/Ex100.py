@@ -1,3 +1,5 @@
+# Funções para sortear e somar
+
 from random import choice
 from time import sleep
 

@@ -1,3 +1,5 @@
+# Analisando e gerando Dicionários
+
 def notas(*no, sit=False):
     """
     notas(*no, sit=False)
@@ -23,6 +25,7 @@ def notas(*no, sit=False):
 
 
 #  Programa Principal
-resp = notas(3, 9,5, 3, 3, sit=True)
+resp = notas(3, 9, 5, 3, 3, sit=True)
 print(resp)
 # help(notas)  # Exibe a documentação da função notas
+# resp = notas(3, 9, 5, 3, 3)

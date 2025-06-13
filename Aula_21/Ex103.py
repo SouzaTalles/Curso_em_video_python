@@ -1,4 +1,6 @@
-def ficha(jog = '', gol = 0):
+# Ficha do Jogador
+
+def ficha(jog = '', gol = ''):
     """
     -> Mostra a ficha de um jogador.
     :param jog: (opcional) Nome do jogador>
@@ -8,6 +10,8 @@ def ficha(jog = '', gol = 0):
     print('-' * 30)
     if jog == '':
         jog = '<desconhecido>'
+    if gol == '':
+        gol = 0
     print(f'O jogador {jog} fez {gol} gol(s) no campeonato.')
     print('-' * 30)
 

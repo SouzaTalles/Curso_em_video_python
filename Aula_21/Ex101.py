@@ -1,7 +1,8 @@
-from datetime import datetime
+# Funções para votação
 
 def voto(nas):
-    idade = datetime.now().year - nas
+    from datetime import date
+    idade = date.now().year - nas
     if idade < 18:
         v = 'NÃO VOTA'
     elif idade < 65:

@@ -1,3 +1,5 @@
+# Validando entrada de dados em Python
+
 def leiaint(msg):
     """
     Função para validar se a entrada do usuário é um número inteiro.

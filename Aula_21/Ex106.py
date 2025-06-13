@@ -25,4 +25,4 @@ while True:
     print('\033[7;30;40m', end='')  # Inverso, letra preta, fundo preto
     help(comando)
     print('\033[m', end='')  # Reset
-    sleep(1)
+    sleep(1) 

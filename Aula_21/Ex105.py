@@ -1,4 +1,4 @@
-# Analisando e gerando Dicionários
+# Analisando e gerando Dicionários 
 
 def notas(*no, sit=False):
     """
